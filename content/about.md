@@ -4,6 +4,10 @@ date = '2025-12-08T21:34:08-05:00'
 draft = false
 +++
 
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/images/claudsidian-logo.png" alt="Claudsidian Logo" style="max-width: 250px; height: auto;">
+</div>
+
 ## AI-Enhanced Second Brain
 
 Claudsidian teaches you how to combine Claude Code with Obsidian to create an AI-enhanced second brain. This powerful workflow helps you think better, work faster, and never lose track of complex projects - all while building a personal knowledge base that grows with you.

@@ -23,7 +23,7 @@ title = "Claudsidian"
 description = "Learn how Claude Code + Obsidian creates the ultimate AI-enhanced second brain and productivity system"
 keywords = ["obsidian", "claude", "second brain", "PKM", "knowledge management", "AI"]
 author = "Claudsidian"
-# images = ["<link or path of image for opengraph, twitter-cards>"]
+images = ["/images/claudsidian-logo.png"]
 DateFormat = "January 2, 2006"
 defaultTheme = "light"
 disableThemeToggle = false
@@ -62,10 +62,10 @@ text = "Claudsidian"
 enabled = true
 title = "Your Second Brain, Supercharged by AI"
 subtitle = "Learn how Claude Code + Obsidian creates the ultimate thinking and productivity system"
-# imageUrl = "<img location>"
-# imageWidth = 120
-# imageHeight = 120
-# imageTitle = "my image"
+imageUrl = "/images/claudsidian-logo.png"
+imageWidth = 200
+imageHeight = 200
+imageTitle = "Claudsidian"
 
 [[params.profileMode.buttons]]
 name = "Get the Newsletter"
