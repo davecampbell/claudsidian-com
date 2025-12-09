@@ -63,7 +63,7 @@ subtitle = "Learn how Claude Code + Obsidian creates the ultimate thinking and p
 # imageTitle = "my image"
 
 [[params.profileMode.buttons]]
-name = "Join Claudsidian"
+name = "Get the Newsletter"
 url = "/signup"
 
 [[params.profileMode.buttons]]
@@ -144,7 +144,7 @@ weight = 40
 
 [[menu.main]]
 identifier = "signup"
-name = "Join"
+name = "Newsletter"
 url = "/signup/"
 weight = 45
 

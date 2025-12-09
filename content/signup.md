@@ -1,5 +1,5 @@
 +++
-title = 'Join Claudsidian'
+title = 'Get the Claudsidian Newsletter'
 date = '2025-12-08T22:00:00-05:00'
 draft = false
 hidemeta = true
@@ -8,7 +8,7 @@ ShowBreadCrumbs = false
 
 <div style="max-width: 600px; margin: 0 auto; text-align: center; padding: 2rem 1rem;">
 
-## Master the Claude + Obsidian Workflow
+## Get the Claudsidian Newsletter
 
 Get early access to the complete setup guide, workflow tips, and best practices for building your AI-enhanced second brain.
 
