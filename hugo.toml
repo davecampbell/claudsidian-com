@@ -1,0 +1,148 @@
+baseURL = 'https://claudsidian.com/'
+languageCode = 'en-us'
+title = 'Claudsidian - Your Second Brain, Supercharged'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Claudsidian"
+description = "Learn how Claude Code + Obsidian creates the ultimate AI-enhanced second brain and productivity system"
+keywords = ["obsidian", "claude", "second brain", "PKM", "knowledge management", "AI"]
+author = "Claudsidian"
+# images = ["<link or path of image for opengraph, twitter-cards>"]
+DateFormat = "January 2, 2006"
+defaultTheme = "light"
+disableThemeToggle = false
+
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = false
+
+[params.assets]
+# disableHLJS = true # to disable highlight.js
+# disableFingerprinting = true
+# favicon = "<link / abs url>"
+# favicon16x16 = "<link / abs url>"
+# favicon32x32 = "<link / abs url>"
+# apple_touch_icon = "<link / abs url>"
+# safari_pinned_tab = "<link / abs url>"
+
+[params.label]
+text = "Claudsidian"
+# icon = "/apple-touch-icon.png"
+# iconHeight = 35
+
+[params.profileMode]
+enabled = true
+title = "Your Second Brain, Supercharged by AI"
+subtitle = "Learn how Claude Code + Obsidian creates the ultimate thinking and productivity system"
+# imageUrl = "<img location>"
+# imageWidth = 120
+# imageHeight = 120
+# imageTitle = "my image"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts"
+
+[[params.profileMode.buttons]]
+name = "Getting Started"
+url = "/getting-started"
+
+[[params.profileMode.buttons]]
+name = "About"
+url = "/about"
+
+[params.homeInfoParams]
+Title = "Your Second Brain, Supercharged by AI"
+Content = "Learn how Claude Code + Obsidian creates the ultimate thinking and productivity system"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/"
+
+[params.analytics.google]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+[params.cover]
+hidden = true
+hiddenInList = true
+hiddenInSingle = true
+
+[params.editPost]
+URL = "https://github.com/<path_to_repo>/content"
+Text = "Suggest Changes"
+appendFilePath = true
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 0
+keys = ["title", "permalink", "summary", "content"]
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[menu.main]]
+identifier = "getting-started"
+name = "Getting Started"
+url = "/getting-started/"
+weight = 20
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/posts/"
+weight = 30
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 40
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 50
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]

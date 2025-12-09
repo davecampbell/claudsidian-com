@@ -1,0 +1,29 @@
+[build]
+publish = "public"
+command = "hugo --minify"
+
+[context.production.environment]
+HUGO_VERSION = "0.152.2"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.deploy-preview]
+command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+command = "hugo -b $DEPLOY_PRIME_URL"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Redirect default Netlify subdomain to custom domain
+[[redirects]]
+  from = "https://claudsidian.netlify.app/*"
+  to = "https://claudsidian.com/:splat"
+  status = 301
+  force = true
