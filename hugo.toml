@@ -63,8 +63,8 @@ enabled = true
 title = "Your Second Brain, Supercharged by AI"
 subtitle = "Learn how Claude Code + Obsidian creates the ultimate thinking and productivity system"
 imageUrl = "/images/claudsidian-logo.png"
-imageWidth = 200
-imageHeight = 200
+imageWidth = 300
+imageHeight = 164
 imageTitle = "Claudsidian"
 
 [[params.profileMode.buttons]]
