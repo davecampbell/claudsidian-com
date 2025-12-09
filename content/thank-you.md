@@ -6,15 +6,11 @@ hidemeta = true
 ShowBreadCrumbs = false
 +++
 
-<div style="max-width: 600px; margin: 0 auto; text-align: center; padding: 3rem 1rem;">
-
 # 🎉 You're In!
 
 ## Thanks for joining Claudsidian
 
 Your journey to an AI-enhanced second brain starts now.
-
-<div style="background: #f3f4f6; padding: 2rem; border-radius: 8px; margin: 2rem 0;">
 
 ### What's Next?
 
@@ -22,13 +18,9 @@ Your journey to an AI-enhanced second brain starts now.
 2. **Explore the guides** - Start with our [Getting Started](/getting-started/) guide
 3. **Read the blog** - Check out [workflow tips and examples](/posts/)
 
-</div>
-
 ### While You're Here
 
 <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
-  <a href="/getting-started/" style="padding: 0.75rem 1.5rem; background: var(--primary); color: white; text-decoration: none; border-radius: 6px; font-weight: 600;">Get Started Now</a>
-  <a href="/posts/" style="padding: 0.75rem 1.5rem; background: #6b7280; color: white; text-decoration: none; border-radius: 6px; font-weight: 600;">Read the Blog</a>
-</div>
-
+  <a href="/getting-started/" class="button" style="padding: 0.75rem 1.5rem; background: var(--primary); color: white; text-decoration: none; border-radius: 6px; font-weight: 600;">Get Started Now</a>
+  <a href="/posts/" class="button" style="padding: 0.75rem 1.5rem; background: var(--secondary); color: white; text-decoration: none; border-radius: 6px; font-weight: 600;">Read the Blog</a>
 </div>
