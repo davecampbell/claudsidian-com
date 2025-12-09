@@ -8,6 +8,11 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [minify]
 disableXML = true
 minifyOutput = true
