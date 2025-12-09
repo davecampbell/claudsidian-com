@@ -1,26 +1,19 @@
 +++
-title = 'Welcome to Claudsidian!'
+title = 'Thank You!'
 date = '2025-12-08T22:00:00-05:00'
 draft = false
 hidemeta = true
 ShowBreadCrumbs = false
 +++
 
-# 🎉 You're In!
+# Thanks for signing up for the newsletter!
 
-## Thanks for joining Claudsidian
+You'll receive updates about the Claudsidian workflow, tips for using Claude Code with Obsidian, and productivity strategies for building your AI-enhanced second brain.
 
-Your journey to an AI-enhanced second brain starts now.
+## Start Exploring
 
-### What's Next?
+Check out these resources while you wait:
 
-1. **Check your inbox** - You'll receive a welcome email shortly
-2. **Explore the guides** - Start with our [Getting Started](/getting-started/) guide
-3. **Read the blog** - Check out [workflow tips and examples](/posts/)
-
-### While You're Here
-
-<div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
-  <a href="/getting-started/" class="button" style="padding: 0.75rem 1.5rem; background: var(--primary); color: white; text-decoration: none; border-radius: 6px; font-weight: 600;">Get Started Now</a>
-  <a href="/posts/" class="button" style="padding: 0.75rem 1.5rem; background: var(--secondary); color: white; text-decoration: none; border-radius: 6px; font-weight: 600;">Read the Blog</a>
-</div>
+- **[Read the Blog](/posts/)** - Workflow tips, examples, and best practices
+- **[Getting Started Guide](/getting-started/)** - Step-by-step setup instructions
+- **[About Claudsidian](/about/)** - Learn more about the workflow
