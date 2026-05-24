@@ -4,6 +4,7 @@ date = '2025-12-08T21:34:09-05:00'
 draft = false
 tags = ['announcement', 'getting-started']
 categories = ['News']
+description = "Introducing the Claude Code + Obsidian workflow — and why combining these two tools creates something greater than the sum of their parts."
 +++
 
 Welcome to Claudsidian - where we explore the powerful combination of Claude Code and Obsidian to create an AI-enhanced second brain.

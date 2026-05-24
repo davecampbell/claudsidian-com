@@ -16,3 +16,9 @@ Thumbs.db
 
 # Netlify
 .netlify/
+
+# Newsletter ops (local only — not published)
+newsletter/
+
+# Obsidian vault config
+.obsidian/
